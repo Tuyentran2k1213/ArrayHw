@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Luyện tập mảng</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" media="screen" href="./style.css">
+  </head>
+  <body>
+    <h1>Nhập để thêm số vào mảng</h1>
+
+    <div class="swap-pos">\
+      <div>
+        <h3>Đổi chỗ 2 giá trị trong mảng</h3>
+      </div>
+      <div class="input-group">
+        <span class="input-group-text">Nhập vị trí thứ nhất</span>
+        <input type="number" aria-label="First name" class="form-control firstNum">
+      </div>
+      <div class="input-group">
+        <span class="input-group-text">Nhập vị trí thứ 2</span>
+        <input type="number" aria-label="First name" class="form-control SecNum">
+      </div>
+    </div>
+
+    <div class="input-group d-flex flex-row justify-content-center">
+    <label for="inp" class="p-5 inp input-group w-50">
+      <input type="number" class="input_num form-control" style="height: 50px;" placeholder="Nhập số vào mảng" id="x">
+      <div class="input-group-append">
+      </div>
+      <span class="focus-bg"></span>
+    </label>
+  </div>
+  <!-- partial -->
+  <p id="warning" class="text-danger"></p>
+  <p id="result" class="text-success"></p>
+
+    <div class="d-flex button-group align-items-center">
+    <button class="bubbly-button pink addNum">Thêm số nguyên vào mảng</button>
+    <button class="bubbly-button red delete">Xóa số vừa nhập ra khỏi mảng</button>
+    <button class="bubbly-button green total">Tính Tổng các số dương trong mảng</button>
+    <button class="bubbly-button yellow posLength">Đếm có bao nhiêu số dương trong mảng</button>
+    <button class="bubbly-button blue smol">Tìm số nhỏ nhất trong mảng</button>
+    <button class="bubbly-button sine posSmol">Tìm số dương nhỏ nhất trong mảng</button>
+    <button class="bubbly-button pink lastEven">Tìm số chẵn cuối cùng trong mảng</button>
+    <button class="bubbly-button blue sortUp">Sắp xếp mảng theo thứ tự tăng dần</button>
+    <button class="bubbly-button green comparison">So sánh số lượng số dương và số lượng số âm trong mảng</button>
+    <button class="bubbly-button yellow findFirstPrime">Tìm số nguyên tố đầu tiên trong mảng</button>
+    <button class="bubbly-button pink findInt">Tính số lượng số nguyên có trong mảng</button>
+    <button class="bubbly-button blue swap">Đổi chỗ 2 giá trị trong mảng</button>
+    </div>
+    
+    <!-- Optional JavaScript -->
+    <script src="./main.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
